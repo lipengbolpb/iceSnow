@@ -5,11 +5,15 @@
  .distance-margin-top{
      margin-top: 50px;
  }
+ .distance-margin-bot{
+     margin-bottom: 50px;
+ }
  .container .row>div{
     margin-top: 10px;
     padding: 0;
     height: 282px;
- } .container .row>div>img{
+ } 
+ .container .row>div>img{
     height: 100%;
  }
  img{
@@ -207,11 +211,129 @@
 }
 
 /* 关于我们 */
+.com_mes_title_img_box{
+    text-align: center;
+}
 .com_mes_title_img {
+    width: auto;
     margin: 0 auto;
     margin-bottom: 31px;
 }
+.aboutUs_part04_warp>div{
+	float: left;
+	display: block;
+	width: 214px;
+	height: 214px;
+	border-radius: 10px;
+	color: #fff;
+	text-align: center;
+	font-size: 24px;
+}
+.aboutUs_part04_warp>div p{
+	 margin-top: 154px;
+}
+/* .aboutUs_part04_warp>div:not(:last-child){
+	margin-right: 32px;
+} */
+.aboutUs_part04_warp_div01{
+	background:url(../img/aboutUs/part201.png) no-repeat;
+	background-size:100% 100%;
+}
+.aboutUs_part04_warp_div02{
+	background:url(../img/aboutUs/part202.png) no-repeat;
+	background-size:100% 100%;
+}
+.aboutUs_part04_warp_div03{
+	background:url(../img/aboutUs/part203.png) no-repeat;
+	background-size:100% 100%;
+}
+.aboutUs_part04_warp_div04{
+	background:url(../img/aboutUs/part204.png) no-repeat;
+	background-size:100% 100%;
+}
+.aboutUs_part04_warp_div05{
+	background:url(../img/aboutUs/part205.png) no-repeat;
+	background-size:100% 100%;
+}
+.aboutUs_part04_warp>div p{
+	margin-top: 164px;
+    line-height: 50px;
+	height:50px;
+		background:url(../img/aboutUs/botMengceng.png) no-repeat;
+	background-size:100%;
+	font-size:16px;
+}
+.home_part_center_mes>h1 {
+    font-size: 48px;
+    color: #A1A1A1;
+    padding: 50px 0 0 60px;
+    /* height: 67px; */
+}
+.home_part_center_mes>p {
+    font-size: 16px;
+    color: #595757;
+    margin-bottom: 24px;
+    margin-left: 60px;
+}
 
+/* 制冰技术 开始 */
+/* .iceMakingTechnology_warp>div:not(:last-child) {
+    margin-right: 27px;
+} */
+.iceMakingTechnology_warp>div{
+    height: 512px !important;
+}
+.iceMakingTechnology_warp_botBor_01>div {
+    border-bottom: 4px solid #00FDB5;
+}
+.iceMakingTechnology_warp>div {  
+    height: 100%;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 24px;
+    border: 1px solid #7D7D7D;
+    box-sizing: border-box;
+}
+.iceMakingTechnology_warp>div h1 {
+    font-size: 21px;
+    color: #393939;
+    line-height: 29px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+.iceMakingTechnology_warp>div p {
+    font-size: 16px;
+    width: 304px;
+    margin: 0 auto;
+    color: #595757;
+    line-height: 26px;
+    text-align: left;
+}
+.iceMakingTechnology_warp>div .tietleicon {
+    width: 104px;
+    height: 104px !important;
+    margin: 0 auto;
+    margin: 50px 0;
+    display: inline-block;
+} 
+.iceMakingTechnology_warp .tietleImg {
+    width: 100%;
+    height: auto !important;
+    margin-bottom: 49px;
+    display: inline-block;
+}
+/* 制冰技术 结束 */
+
+/* 场馆介绍 开始 */
+.iceMakingTechnology_warp_bg {
+    background: #000000;
+    margin-bottom: 49px;
+    height: 246px;
+}
+.iceMakingTechnology_warp_botBor_02>div {
+    border-bottom: 4px solid #4A7EFF;
+}
+/* 场馆介绍 结束 */
 
 /* 超小屏幕（手机，小于 768px） */
 /* 没有任何媒体查询相关的代码，因为这在 Bootstrap 中是默认的（还记得 Bootstrap 是移动设备优先的吗？） */
